@@ -13,7 +13,6 @@ onBeforeMount(() => {
 onMounted(() => {
   console.log('已經載入元件');
 })
-
 </script>
 
 <template>

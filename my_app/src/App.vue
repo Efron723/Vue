@@ -1,19 +1,22 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Button from './components/button.vue';
+import MyButton from './components/myButton.vue'
+import MyNote from './components/myNote.vue';
 </script>
 
 <template>
-  <div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-  <Button></Button>
+  </div> -->
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <!-- <MyButton/> -->
+  <MyNote />
+
 </template>
 
 <style scoped>
