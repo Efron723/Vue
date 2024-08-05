@@ -7,8 +7,8 @@ money.value = 10000;
 const fruits = reactive(['蘋果', '香蕉', '鳳梨'])
 
 const user = reactive(({
-  name: 'Efron',
-  age: 28
+  name: 'Jhon',
+  age: 40
 }))
 
 defineProps({
@@ -23,7 +23,7 @@ const count = ref(0);
   <h2>{{ fruits[2] }}</h2>
   <h2>{{ user.name }} 是 {{ user.age }} 歲</h2>
   <img src="../assets/animal.jpg" alt="">
-  <!-- <img src="../../public/animal.jpg" alt=""> -->
+  <!-- <img src="/animal.jpg" alt=""> -->
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
