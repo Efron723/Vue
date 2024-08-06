@@ -17,13 +17,22 @@ import Pinia from './components/pinia.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div> -->
+  <ul>
+    <li><router-link to="/ChangeDivColor">ChangeDivColor</router-link></li>
+    <li><router-link to="./components/HelloWorld.vue">HelloWorld</router-link></li>
+    <li><router-link to="./components/myButton.vue">MyButton</router-link></li>
+    <li><router-link to="./components/myNote.vue">myNote</router-link></li>
+    <li><router-link to="./components/pinia.vue">pinia</router-link></li>
+    <li><router-link to="./components/register.vue">register</router-link></li>
+    <li><router-link to="./components/test.vue">test</router-link></li>
+  </ul>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
   <!-- <MyButton/> -->
   <!-- <MyNote /> -->
   <!-- <Register /> -->
   <!-- <Test /> -->
   <!-- <ChangeDivColor /> -->
-  <Pinia />
+  <!-- <Pinia /> -->
 </template>
 
 <style scoped>
