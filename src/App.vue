@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 import MyButton from './components/myButton.vue'
 import MyNote from './components/myNote.vue';
 import Register from './components/register.vue';
+import Test from './components/test.vue';
+import ChangeDivColor from './components/ChangeDivColor.vue'; 
 </script>
 
 <template>
@@ -17,7 +19,9 @@ import Register from './components/register.vue';
   <!-- <HelloWorld msg="Vite + Vue" /> -->
   <!-- <MyButton/> -->
   <!-- <MyNote /> -->
-  <Register />
+  <!-- <Register /> -->
+  <!-- <Test /> -->
+  <ChangeDivColor />
 </template>
 
 <style scoped>
