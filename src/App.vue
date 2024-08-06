@@ -4,7 +4,8 @@ import MyButton from './components/myButton.vue'
 import MyNote from './components/myNote.vue';
 import Register from './components/register.vue';
 import Test from './components/test.vue';
-import ChangeDivColor from './components/ChangeDivColor.vue'; 
+import ChangeDivColor from './components/ChangeDivColor.vue';
+import Pinia from './components/pinia.vue';
 </script>
 
 <template>
@@ -21,7 +22,8 @@ import ChangeDivColor from './components/ChangeDivColor.vue';
   <!-- <MyNote /> -->
   <!-- <Register /> -->
   <!-- <Test /> -->
-  <ChangeDivColor />
+  <!-- <ChangeDivColor /> -->
+  <Pinia />
 </template>
 
 <style scoped>
