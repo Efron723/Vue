@@ -1,4 +1,3 @@
-// src/stores/list.js
 import { defineStore } from "pinia";
 
 export const listStore = defineStore("list", {

@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import ChangeDivColor from "../components/ChangeDivColor.vue";
-import DataSend from "../components/DataSend.vue";
 import HelloWorld from "../components/HelloWorld.vue";
 import MyButton from "../components/myButton.vue";
 import MyNote from "../components/myNote.vue";
@@ -9,6 +8,8 @@ import Register from "../components/register.vue";
 import Test from "../components/test.vue";
 import DefaultLayout from "../layouts/DefaultLayout.vue";
 
+import Note from "../components/note.vue";
+
 const routes = [
   {
     path: "/",
@@ -16,14 +17,14 @@ const routes = [
     component: DefaultLayout,
   },
   {
+    path: "/note",
+    name: "note",
+    component: Note,
+  },
+  {
     path: "/change-div-color",
     name: "ChangeDivColor",
     component: ChangeDivColor,
-  },
-  {
-    path: "/data-send",
-    name: "DataSend",
-    component: DataSend,
   },
   {
     path: "/hello-world",
