@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import ChangeDivColor from "../components/ChangeDivColor.vue";
 import DataSend from "../components/DataSend.vue";
 import HelloWorld from "../components/HelloWorld.vue";
@@ -7,52 +7,59 @@ import MyNote from "../components/myNote.vue";
 import Pinia from "../components/pinia.vue";
 import Register from "../components/register.vue";
 import Test from "../components/test.vue";
+import DefaultLayout from "../layouts/DefaultLayout.vue";
+
 const routes = [
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: ChangeDivColor,
+    path: "/",
+    name: "Home",
+    component: DefaultLayout,
   },
   {
-    path: "/ChangeDivColor",
+    path: "/change-div-color",
     name: "ChangeDivColor",
-    components: DataSend,
+    component: ChangeDivColor,
   },
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: HelloWorld,
+    path: "/data-send",
+    name: "DataSend",
+    component: DataSend,
   },
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: MyButton,
+    path: "/hello-world",
+    name: "HelloWorld",
+    component: HelloWorld,
   },
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: MyNote,
+    path: "/my-button",
+    name: "MyButton",
+    component: MyButton,
   },
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: Pinia,
+    path: "/my-note",
+    name: "MyNote",
+    component: MyNote,
   },
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: Register,
+    path: "/pinia",
+    name: "Pinia",
+    component: Pinia,
   },
   {
-    path: "/ChangeDivColor",
-    name: "ChangeDivColor",
-    components: Test,
+    path: "/register",
+    name: "Register",
+    component: Register,
+  },
+  {
+    path: "/test",
+    name: "Test",
+    component: Test,
   },
 ];
 
 const router = createRouter({
   routes,
-  history: createWebHashHistory(),
+  history: createWebHistory(),
 });
 
 export default router;
